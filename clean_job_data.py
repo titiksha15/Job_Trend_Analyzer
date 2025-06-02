@@ -4,18 +4,18 @@ import re
 
 # Load Naukri CSV data
 try:
-    naukri_df = pd.read_csv('./Data/clean/naukri_selenium_fixed.csv')
+    naukri_df = pd.read_csv('naukri_selenium_fixed.csv')
     naukri_df['source'] = 'Naukri'
     print("Naukri CSV columns:", naukri_df.columns.tolist())
     print(f"Naukri records: {len(naukri_df)}")
 except FileNotFoundError:
-    print("Error: 'naukri_selenium_fixed.csv' not found in './Data/clean/'")
+    print("Error: 'naukri_selenium_fixed.csv' not found in")
     exit(1)
 
 # Load Indeed JSON data (JSONL format)
 indeed_data = []
 try:
-    with open('./Data/clean/indeed_selenium_fixed.json', 'r', encoding='utf-8') as f:
+    with open('indeed_selenium_fixed.json', 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
             if line:
@@ -25,7 +25,7 @@ try:
                     print(f"Skipping invalid JSON line: {e}")
                     continue
 except FileNotFoundError:
-    print("Error: 'indeed_selenium_fixed.json' not found in './Data/clean/'")
+    print("Error: 'indeed_selenium_fixed.json' not found in ")
     exit(1)
 
 if not indeed_data:
