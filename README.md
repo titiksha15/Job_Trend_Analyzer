@@ -14,6 +14,7 @@ User Interface: Streamlit-based app for easy interaction and exploration of job 
 Technologies Used
 
 Programming: Python
+
 Web Scraping: Selenium, BeautifulSoup
 Data Processing: Pandas
 Visualization: Plotly
