@@ -15,7 +15,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Path to ChromeDriver
-CHROMEDRIVER_PATH = "C:/Chromedriver/chromedriver-win64/chromedriver-win64/chromedriver.exe"
+CHROMEDRIVER_PATH = "Enter_your_chrome_path"
 
 # Expanded list of job roles and locations
 roles = [
