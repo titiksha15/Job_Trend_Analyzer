@@ -1,0 +1,8 @@
+streamlit
+pandas
+selenium
+beautifulsoup4
+plotly
+
+
+pip install streamlit pandas selenium beautifulsoup4 plotly
