@@ -114,11 +114,19 @@ View cleaned data and explore interactive Plotly visualizations (e.g., skill fre
 Project Structure
 
 job-analyzer-app/
+
 ├── app.py               # Main Streamlit app
+
 ├── scraper.py           # Web scraping logic (Selenium, BeautifulSoup)
+
 ├── data_cleaning.py     # Data processing with Pandas
+
 ├── visualizations.py    # Plotly visualizations
+
 ├── requirements.txt     # Dependencies
+
+├── screenshots          # includes visual representation
+
 └── README.md            # Project documentation
 
 Ethical Considerations
