@@ -158,6 +158,9 @@ Implement machine learning for predictive salary analysis.
 Enhance visualizations with real-time data updates.
 
 
+![Screenshot 2025-07-06 151537](https://github.com/user-attachments/assets/58277ad1-9681-4a65-ab64-008f6d6e6ac9)
+
+
 Contributing
 
 Contributions are welcome! Please fork the repository, create a branch, and submit a pull request with your changes.
